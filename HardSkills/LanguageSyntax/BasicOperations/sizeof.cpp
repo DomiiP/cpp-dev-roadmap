@@ -27,6 +27,7 @@ int main(){
     CharInt ci;
     std::unique_ptr<int> upi;
     std::shared_ptr<int> spi;
+    void *v;
     
     
     std::cout<<"sizeof:\n"
@@ -52,5 +53,6 @@ int main(){
     <<"20. bool:                    "<<sizeof(bool)             <<"\n" // 1
     <<"21: int t[10];               "<<sizeof(t)                <<"\n" // 40
     <<"22. t/t[0]:                  "<<sizeof(t)/sizeof(t[0])   <<"\n" // 10
+    <<"23. void:                    "<<sizeof(v)                <<"\n" // 8
     ;
 }

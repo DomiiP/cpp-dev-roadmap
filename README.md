@@ -8,3 +8,4 @@ C++ Developer
   - Language syntax
     - Basic operations
       - [Bitwise operations, bitset](HardSkills/LanguageSyntax/BasicOperations/BitwiseOperations.cpp)
+      - [sizeof operator](HardSkills/LanguageSyntax/BasicOperations/sizeof.cpp)
